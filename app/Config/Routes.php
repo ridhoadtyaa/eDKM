@@ -72,6 +72,7 @@ $routes->group('dashboard', ['filter' => 'auth'], function($routes) {
     $routes->delete('pengurus/(:num)', 'Pengurus::delete/$1');
     $routes->get('pengurus/edit/(:num)', 'Pengurus::edit/$1');
     $routes->put('pengurus/(:num)', 'Pengurus::update/$1');
+    $routes->get('pengurus/pdf', 'Pengurus::generatePDF');
     
     $routes->get('sumbangan', 'SumbanganDashboard::index');
     $routes->delete('sumbangan/(:num)', 'SumbanganDashboard::delete/$1');

@@ -47,9 +47,11 @@
             <div class="card-header">
                 <h4 class="card-title">Daftar Pengurus</h4>
             </div>
-            
             <div class="card-body">
                 <div class="row">
+                    <div>
+                    <a class="btn btn-danger mb-2" href="/dashboard/pengurus/pdf">Download PDF</a>
+                    </div>
                     <div class="col overflow-auto">
                         <table class="table" id="datatables" style="width: 100%;">
                             <thead>
@@ -146,10 +148,10 @@
         });
 
         $('#datatables').DataTable({
-            dom: 'Bfrtip',
-            buttons: [
-                'pageLength', 'copy', 'csv', 'excel', 'pdf', 'print'
-            ],
+            // dom: 'Bfrtip',
+            // buttons: [
+            //     'pageLength', 'copy', 'csv', 'excel', 'pdf', 'print'
+            // ],
             "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]]
         });
     })

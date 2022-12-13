@@ -66,7 +66,10 @@
                                         </div>
                                     </div>
 
-                                    <button type="submit" class="btn btn-primary mt-3">Ubah</button>
+                                    <div class="mt-3 flex align-items-center">
+                                        <button type="reset" class="btn btn-danger me-3" value="reset">Reset</button>
+                                        <button type="submit" class="btn btn-primary">Ubah</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>

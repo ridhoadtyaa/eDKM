@@ -75,7 +75,10 @@ label#name-error, label#jabatan-error, label#alamat-error, label#no_telp-error{
                                         </div>
                                     </div>
 
-                                    <button type="submit" class="btn btn-primary mt-3">Tambah</button>
+                                    <div class="d-flex align-items-center mt-3">
+                                        <button type="reset" class="btn btn-danger me-3" value="reset">Reset</button>
+                                        <button type="submit" class="btn btn-primary">Tambah</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
